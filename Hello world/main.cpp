@@ -699,6 +699,7 @@ void battleArena()
 	while (endGame == false)
 	{
 		p1.PrintInfo();
+		//git testing
 		
 	}
 

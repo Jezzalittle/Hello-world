@@ -1,0 +1,274 @@
+﻿  main.cpp
+c:\users\s170895\documents\programs\hello world\hello world\main.cpp(121): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+c:\users\s170895\documents\programs\hello world\hello world\main.cpp(140): warning C4101: 'chanceToHitAgian': unreferenced local variable
+c:\users\s170895\documents\programs\hello world\hello world\main.cpp(516): warning C4996: '_beep': This function or variable has been superceded by newer library or operating system functionality. Consider using Beep instead. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdlib.h(1260): note: see declaration of '_beep'
+c:\users\s170895\documents\programs\hello world\hello world\main.cpp(517): warning C4996: '_beep': This function or variable has been superceded by newer library or operating system functionality. Consider using Beep instead. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdlib.h(1260): note: see declaration of '_beep'
+c:\users\s170895\documents\programs\hello world\hello world\main.cpp(518): warning C4996: '_beep': This function or variable has been superceded by newer library or operating system functionality. Consider using Beep instead. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdlib.h(1260): note: see declaration of '_beep'
+c:\users\s170895\documents\programs\hello world\hello world\main.cpp(519): warning C4996: '_beep': This function or variable has been superceded by newer library or operating system functionality. Consider using Beep instead. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdlib.h(1260): note: see declaration of '_beep'
+c:\users\s170895\documents\programs\hello world\hello world\main.cpp(520): warning C4996: '_beep': This function or variable has been superceded by newer library or operating system functionality. Consider using Beep instead. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdlib.h(1260): note: see declaration of '_beep'
+c:\users\s170895\documents\programs\hello world\hello world\main.cpp(521): warning C4996: '_beep': This function or variable has been superceded by newer library or operating system functionality. Consider using Beep instead. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdlib.h(1260): note: see declaration of '_beep'
+c:\users\s170895\documents\programs\hello world\hello world\main.cpp(522): warning C4996: '_beep': This function or variable has been superceded by newer library or operating system functionality. Consider using Beep instead. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdlib.h(1260): note: see declaration of '_beep'
+c:\users\s170895\documents\programs\hello world\hello world\main.cpp(523): warning C4996: '_beep': This function or variable has been superceded by newer library or operating system functionality. Consider using Beep instead. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdlib.h(1260): note: see declaration of '_beep'
+c:\users\s170895\documents\programs\hello world\hello world\main.cpp(524): warning C4996: '_beep': This function or variable has been superceded by newer library or operating system functionality. Consider using Beep instead. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdlib.h(1260): note: see declaration of '_beep'
+c:\users\s170895\documents\programs\hello world\hello world\main.cpp(525): warning C4996: '_beep': This function or variable has been superceded by newer library or operating system functionality. Consider using Beep instead. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdlib.h(1260): note: see declaration of '_beep'
+c:\users\s170895\documents\programs\hello world\hello world\main.cpp(526): warning C4996: '_beep': This function or variable has been superceded by newer library or operating system functionality. Consider using Beep instead. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdlib.h(1260): note: see declaration of '_beep'
+c:\users\s170895\documents\programs\hello world\hello world\main.cpp(527): warning C4996: '_beep': This function or variable has been superceded by newer library or operating system functionality. Consider using Beep instead. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdlib.h(1260): note: see declaration of '_beep'
+c:\users\s170895\documents\programs\hello world\hello world\main.cpp(528): warning C4996: '_beep': This function or variable has been superceded by newer library or operating system functionality. Consider using Beep instead. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdlib.h(1260): note: see declaration of '_beep'
+c:\users\s170895\documents\programs\hello world\hello world\main.cpp(529): warning C4996: '_beep': This function or variable has been superceded by newer library or operating system functionality. Consider using Beep instead. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdlib.h(1260): note: see declaration of '_beep'
+c:\users\s170895\documents\programs\hello world\hello world\main.cpp(530): warning C4996: '_beep': This function or variable has been superceded by newer library or operating system functionality. Consider using Beep instead. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdlib.h(1260): note: see declaration of '_beep'
+c:\users\s170895\documents\programs\hello world\hello world\main.cpp(531): warning C4996: '_beep': This function or variable has been superceded by newer library or operating system functionality. Consider using Beep instead. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdlib.h(1260): note: see declaration of '_beep'
+c:\users\s170895\documents\programs\hello world\hello world\main.cpp(532): warning C4996: '_beep': This function or variable has been superceded by newer library or operating system functionality. Consider using Beep instead. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdlib.h(1260): note: see declaration of '_beep'
+c:\users\s170895\documents\programs\hello world\hello world\main.cpp(533): warning C4996: '_beep': This function or variable has been superceded by newer library or operating system functionality. Consider using Beep instead. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdlib.h(1260): note: see declaration of '_beep'
+c:\users\s170895\documents\programs\hello world\hello world\main.cpp(534): warning C4996: '_beep': This function or variable has been superceded by newer library or operating system functionality. Consider using Beep instead. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdlib.h(1260): note: see declaration of '_beep'
+c:\users\s170895\documents\programs\hello world\hello world\main.cpp(535): warning C4996: '_beep': This function or variable has been superceded by newer library or operating system functionality. Consider using Beep instead. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdlib.h(1260): note: see declaration of '_beep'
+c:\users\s170895\documents\programs\hello world\hello world\main.cpp(536): warning C4996: '_beep': This function or variable has been superceded by newer library or operating system functionality. Consider using Beep instead. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdlib.h(1260): note: see declaration of '_beep'
+c:\users\s170895\documents\programs\hello world\hello world\main.cpp(537): warning C4996: '_beep': This function or variable has been superceded by newer library or operating system functionality. Consider using Beep instead. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdlib.h(1260): note: see declaration of '_beep'
+c:\users\s170895\documents\programs\hello world\hello world\main.cpp(538): warning C4996: '_beep': This function or variable has been superceded by newer library or operating system functionality. Consider using Beep instead. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdlib.h(1260): note: see declaration of '_beep'
+c:\users\s170895\documents\programs\hello world\hello world\main.cpp(539): warning C4996: '_beep': This function or variable has been superceded by newer library or operating system functionality. Consider using Beep instead. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdlib.h(1260): note: see declaration of '_beep'
+c:\users\s170895\documents\programs\hello world\hello world\main.cpp(540): warning C4996: '_beep': This function or variable has been superceded by newer library or operating system functionality. Consider using Beep instead. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdlib.h(1260): note: see declaration of '_beep'
+c:\users\s170895\documents\programs\hello world\hello world\main.cpp(541): warning C4996: '_beep': This function or variable has been superceded by newer library or operating system functionality. Consider using Beep instead. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdlib.h(1260): note: see declaration of '_beep'
+c:\users\s170895\documents\programs\hello world\hello world\main.cpp(542): warning C4996: '_beep': This function or variable has been superceded by newer library or operating system functionality. Consider using Beep instead. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdlib.h(1260): note: see declaration of '_beep'
+c:\users\s170895\documents\programs\hello world\hello world\main.cpp(543): warning C4996: '_beep': This function or variable has been superceded by newer library or operating system functionality. Consider using Beep instead. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdlib.h(1260): note: see declaration of '_beep'
+c:\users\s170895\documents\programs\hello world\hello world\main.cpp(544): warning C4996: '_beep': This function or variable has been superceded by newer library or operating system functionality. Consider using Beep instead. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdlib.h(1260): note: see declaration of '_beep'
+c:\users\s170895\documents\programs\hello world\hello world\main.cpp(545): warning C4996: '_beep': This function or variable has been superceded by newer library or operating system functionality. Consider using Beep instead. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdlib.h(1260): note: see declaration of '_beep'
+c:\users\s170895\documents\programs\hello world\hello world\main.cpp(546): warning C4996: '_beep': This function or variable has been superceded by newer library or operating system functionality. Consider using Beep instead. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdlib.h(1260): note: see declaration of '_beep'
+c:\users\s170895\documents\programs\hello world\hello world\main.cpp(547): warning C4996: '_beep': This function or variable has been superceded by newer library or operating system functionality. Consider using Beep instead. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdlib.h(1260): note: see declaration of '_beep'
+c:\users\s170895\documents\programs\hello world\hello world\main.cpp(548): warning C4996: '_beep': This function or variable has been superceded by newer library or operating system functionality. Consider using Beep instead. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdlib.h(1260): note: see declaration of '_beep'
+c:\users\s170895\documents\programs\hello world\hello world\main.cpp(549): warning C4996: '_beep': This function or variable has been superceded by newer library or operating system functionality. Consider using Beep instead. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdlib.h(1260): note: see declaration of '_beep'
+c:\users\s170895\documents\programs\hello world\hello world\main.cpp(550): warning C4996: '_beep': This function or variable has been superceded by newer library or operating system functionality. Consider using Beep instead. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdlib.h(1260): note: see declaration of '_beep'
+c:\users\s170895\documents\programs\hello world\hello world\main.cpp(551): warning C4996: '_beep': This function or variable has been superceded by newer library or operating system functionality. Consider using Beep instead. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdlib.h(1260): note: see declaration of '_beep'
+c:\users\s170895\documents\programs\hello world\hello world\main.cpp(552): warning C4996: '_beep': This function or variable has been superceded by newer library or operating system functionality. Consider using Beep instead. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdlib.h(1260): note: see declaration of '_beep'
+c:\users\s170895\documents\programs\hello world\hello world\main.cpp(553): warning C4996: '_beep': This function or variable has been superceded by newer library or operating system functionality. Consider using Beep instead. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdlib.h(1260): note: see declaration of '_beep'
+c:\users\s170895\documents\programs\hello world\hello world\main.cpp(554): warning C4996: '_beep': This function or variable has been superceded by newer library or operating system functionality. Consider using Beep instead. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdlib.h(1260): note: see declaration of '_beep'
+c:\users\s170895\documents\programs\hello world\hello world\main.cpp(555): warning C4996: '_beep': This function or variable has been superceded by newer library or operating system functionality. Consider using Beep instead. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdlib.h(1260): note: see declaration of '_beep'
+c:\users\s170895\documents\programs\hello world\hello world\main.cpp(556): warning C4996: '_beep': This function or variable has been superceded by newer library or operating system functionality. Consider using Beep instead. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdlib.h(1260): note: see declaration of '_beep'
+c:\users\s170895\documents\programs\hello world\hello world\main.cpp(557): warning C4996: '_beep': This function or variable has been superceded by newer library or operating system functionality. Consider using Beep instead. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdlib.h(1260): note: see declaration of '_beep'
+c:\users\s170895\documents\programs\hello world\hello world\main.cpp(558): warning C4996: '_beep': This function or variable has been superceded by newer library or operating system functionality. Consider using Beep instead. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdlib.h(1260): note: see declaration of '_beep'
+c:\users\s170895\documents\programs\hello world\hello world\main.cpp(559): warning C4996: '_beep': This function or variable has been superceded by newer library or operating system functionality. Consider using Beep instead. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdlib.h(1260): note: see declaration of '_beep'
+c:\users\s170895\documents\programs\hello world\hello world\main.cpp(560): warning C4996: '_beep': This function or variable has been superceded by newer library or operating system functionality. Consider using Beep instead. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdlib.h(1260): note: see declaration of '_beep'
+c:\users\s170895\documents\programs\hello world\hello world\main.cpp(561): warning C4996: '_beep': This function or variable has been superceded by newer library or operating system functionality. Consider using Beep instead. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdlib.h(1260): note: see declaration of '_beep'
+c:\users\s170895\documents\programs\hello world\hello world\main.cpp(562): warning C4996: '_beep': This function or variable has been superceded by newer library or operating system functionality. Consider using Beep instead. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdlib.h(1260): note: see declaration of '_beep'
+c:\users\s170895\documents\programs\hello world\hello world\main.cpp(563): warning C4996: '_beep': This function or variable has been superceded by newer library or operating system functionality. Consider using Beep instead. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdlib.h(1260): note: see declaration of '_beep'
+c:\users\s170895\documents\programs\hello world\hello world\main.cpp(564): warning C4996: '_beep': This function or variable has been superceded by newer library or operating system functionality. Consider using Beep instead. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdlib.h(1260): note: see declaration of '_beep'
+c:\users\s170895\documents\programs\hello world\hello world\main.cpp(565): warning C4996: '_beep': This function or variable has been superceded by newer library or operating system functionality. Consider using Beep instead. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdlib.h(1260): note: see declaration of '_beep'
+c:\users\s170895\documents\programs\hello world\hello world\main.cpp(566): warning C4996: '_beep': This function or variable has been superceded by newer library or operating system functionality. Consider using Beep instead. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdlib.h(1260): note: see declaration of '_beep'
+c:\users\s170895\documents\programs\hello world\hello world\main.cpp(567): warning C4996: '_beep': This function or variable has been superceded by newer library or operating system functionality. Consider using Beep instead. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdlib.h(1260): note: see declaration of '_beep'
+c:\users\s170895\documents\programs\hello world\hello world\main.cpp(568): warning C4996: '_beep': This function or variable has been superceded by newer library or operating system functionality. Consider using Beep instead. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdlib.h(1260): note: see declaration of '_beep'
+c:\users\s170895\documents\programs\hello world\hello world\main.cpp(569): warning C4996: '_beep': This function or variable has been superceded by newer library or operating system functionality. Consider using Beep instead. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdlib.h(1260): note: see declaration of '_beep'
+c:\users\s170895\documents\programs\hello world\hello world\main.cpp(570): warning C4996: '_beep': This function or variable has been superceded by newer library or operating system functionality. Consider using Beep instead. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdlib.h(1260): note: see declaration of '_beep'
+c:\users\s170895\documents\programs\hello world\hello world\main.cpp(571): warning C4996: '_beep': This function or variable has been superceded by newer library or operating system functionality. Consider using Beep instead. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdlib.h(1260): note: see declaration of '_beep'
+c:\users\s170895\documents\programs\hello world\hello world\main.cpp(572): warning C4996: '_beep': This function or variable has been superceded by newer library or operating system functionality. Consider using Beep instead. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdlib.h(1260): note: see declaration of '_beep'
+c:\users\s170895\documents\programs\hello world\hello world\main.cpp(573): warning C4996: '_beep': This function or variable has been superceded by newer library or operating system functionality. Consider using Beep instead. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdlib.h(1260): note: see declaration of '_beep'
+c:\users\s170895\documents\programs\hello world\hello world\main.cpp(574): warning C4996: '_beep': This function or variable has been superceded by newer library or operating system functionality. Consider using Beep instead. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdlib.h(1260): note: see declaration of '_beep'
+c:\users\s170895\documents\programs\hello world\hello world\main.cpp(575): warning C4996: '_beep': This function or variable has been superceded by newer library or operating system functionality. Consider using Beep instead. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdlib.h(1260): note: see declaration of '_beep'
+c:\users\s170895\documents\programs\hello world\hello world\main.cpp(576): warning C4996: '_beep': This function or variable has been superceded by newer library or operating system functionality. Consider using Beep instead. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdlib.h(1260): note: see declaration of '_beep'
+c:\users\s170895\documents\programs\hello world\hello world\main.cpp(577): warning C4996: '_beep': This function or variable has been superceded by newer library or operating system functionality. Consider using Beep instead. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdlib.h(1260): note: see declaration of '_beep'
+c:\users\s170895\documents\programs\hello world\hello world\main.cpp(578): warning C4996: '_beep': This function or variable has been superceded by newer library or operating system functionality. Consider using Beep instead. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdlib.h(1260): note: see declaration of '_beep'
+c:\users\s170895\documents\programs\hello world\hello world\main.cpp(579): warning C4996: '_beep': This function or variable has been superceded by newer library or operating system functionality. Consider using Beep instead. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdlib.h(1260): note: see declaration of '_beep'
+c:\users\s170895\documents\programs\hello world\hello world\main.cpp(580): warning C4996: '_beep': This function or variable has been superceded by newer library or operating system functionality. Consider using Beep instead. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdlib.h(1260): note: see declaration of '_beep'
+c:\users\s170895\documents\programs\hello world\hello world\main.cpp(581): warning C4996: '_beep': This function or variable has been superceded by newer library or operating system functionality. Consider using Beep instead. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdlib.h(1260): note: see declaration of '_beep'
+c:\users\s170895\documents\programs\hello world\hello world\main.cpp(582): warning C4996: '_beep': This function or variable has been superceded by newer library or operating system functionality. Consider using Beep instead. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdlib.h(1260): note: see declaration of '_beep'
+c:\users\s170895\documents\programs\hello world\hello world\main.cpp(583): warning C4996: '_beep': This function or variable has been superceded by newer library or operating system functionality. Consider using Beep instead. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdlib.h(1260): note: see declaration of '_beep'
+c:\users\s170895\documents\programs\hello world\hello world\main.cpp(584): warning C4996: '_beep': This function or variable has been superceded by newer library or operating system functionality. Consider using Beep instead. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdlib.h(1260): note: see declaration of '_beep'
+c:\users\s170895\documents\programs\hello world\hello world\main.cpp(585): warning C4996: '_beep': This function or variable has been superceded by newer library or operating system functionality. Consider using Beep instead. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdlib.h(1260): note: see declaration of '_beep'
+c:\users\s170895\documents\programs\hello world\hello world\main.cpp(586): warning C4996: '_beep': This function or variable has been superceded by newer library or operating system functionality. Consider using Beep instead. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdlib.h(1260): note: see declaration of '_beep'
+c:\users\s170895\documents\programs\hello world\hello world\main.cpp(587): warning C4996: '_beep': This function or variable has been superceded by newer library or operating system functionality. Consider using Beep instead. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdlib.h(1260): note: see declaration of '_beep'
+c:\users\s170895\documents\programs\hello world\hello world\main.cpp(588): warning C4996: '_beep': This function or variable has been superceded by newer library or operating system functionality. Consider using Beep instead. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdlib.h(1260): note: see declaration of '_beep'
+c:\users\s170895\documents\programs\hello world\hello world\main.cpp(589): warning C4996: '_beep': This function or variable has been superceded by newer library or operating system functionality. Consider using Beep instead. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdlib.h(1260): note: see declaration of '_beep'
+c:\users\s170895\documents\programs\hello world\hello world\main.cpp(590): warning C4996: '_beep': This function or variable has been superceded by newer library or operating system functionality. Consider using Beep instead. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdlib.h(1260): note: see declaration of '_beep'
+c:\users\s170895\documents\programs\hello world\hello world\main.cpp(591): warning C4996: '_beep': This function or variable has been superceded by newer library or operating system functionality. Consider using Beep instead. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdlib.h(1260): note: see declaration of '_beep'
+c:\users\s170895\documents\programs\hello world\hello world\main.cpp(592): warning C4996: '_beep': This function or variable has been superceded by newer library or operating system functionality. Consider using Beep instead. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdlib.h(1260): note: see declaration of '_beep'
+c:\users\s170895\documents\programs\hello world\hello world\main.cpp(593): warning C4996: '_beep': This function or variable has been superceded by newer library or operating system functionality. Consider using Beep instead. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdlib.h(1260): note: see declaration of '_beep'
+c:\users\s170895\documents\programs\hello world\hello world\main.cpp(594): warning C4996: '_beep': This function or variable has been superceded by newer library or operating system functionality. Consider using Beep instead. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdlib.h(1260): note: see declaration of '_beep'
+c:\users\s170895\documents\programs\hello world\hello world\main.cpp(595): warning C4996: '_beep': This function or variable has been superceded by newer library or operating system functionality. Consider using Beep instead. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdlib.h(1260): note: see declaration of '_beep'
+c:\users\s170895\documents\programs\hello world\hello world\main.cpp(596): warning C4996: '_beep': This function or variable has been superceded by newer library or operating system functionality. Consider using Beep instead. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdlib.h(1260): note: see declaration of '_beep'
+c:\users\s170895\documents\programs\hello world\hello world\main.cpp(597): warning C4996: '_beep': This function or variable has been superceded by newer library or operating system functionality. Consider using Beep instead. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdlib.h(1260): note: see declaration of '_beep'
+c:\users\s170895\documents\programs\hello world\hello world\main.cpp(598): warning C4996: '_beep': This function or variable has been superceded by newer library or operating system functionality. Consider using Beep instead. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdlib.h(1260): note: see declaration of '_beep'
+c:\users\s170895\documents\programs\hello world\hello world\main.cpp(599): warning C4996: '_beep': This function or variable has been superceded by newer library or operating system functionality. Consider using Beep instead. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdlib.h(1260): note: see declaration of '_beep'
+c:\users\s170895\documents\programs\hello world\hello world\main.cpp(600): warning C4996: '_beep': This function or variable has been superceded by newer library or operating system functionality. Consider using Beep instead. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdlib.h(1260): note: see declaration of '_beep'
+c:\users\s170895\documents\programs\hello world\hello world\main.cpp(601): warning C4996: '_beep': This function or variable has been superceded by newer library or operating system functionality. Consider using Beep instead. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdlib.h(1260): note: see declaration of '_beep'
+c:\users\s170895\documents\programs\hello world\hello world\main.cpp(602): warning C4996: '_beep': This function or variable has been superceded by newer library or operating system functionality. Consider using Beep instead. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdlib.h(1260): note: see declaration of '_beep'
+c:\users\s170895\documents\programs\hello world\hello world\main.cpp(603): warning C4996: '_beep': This function or variable has been superceded by newer library or operating system functionality. Consider using Beep instead. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdlib.h(1260): note: see declaration of '_beep'
+c:\users\s170895\documents\programs\hello world\hello world\main.cpp(604): warning C4996: '_beep': This function or variable has been superceded by newer library or operating system functionality. Consider using Beep instead. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdlib.h(1260): note: see declaration of '_beep'
+c:\users\s170895\documents\programs\hello world\hello world\main.cpp(605): warning C4996: '_beep': This function or variable has been superceded by newer library or operating system functionality. Consider using Beep instead. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdlib.h(1260): note: see declaration of '_beep'
+c:\users\s170895\documents\programs\hello world\hello world\main.cpp(606): warning C4996: '_beep': This function or variable has been superceded by newer library or operating system functionality. Consider using Beep instead. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdlib.h(1260): note: see declaration of '_beep'
+c:\users\s170895\documents\programs\hello world\hello world\main.cpp(607): warning C4996: '_beep': This function or variable has been superceded by newer library or operating system functionality. Consider using Beep instead. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdlib.h(1260): note: see declaration of '_beep'
+c:\users\s170895\documents\programs\hello world\hello world\main.cpp(608): warning C4996: '_beep': This function or variable has been superceded by newer library or operating system functionality. Consider using Beep instead. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdlib.h(1260): note: see declaration of '_beep'
+c:\users\s170895\documents\programs\hello world\hello world\main.cpp(609): warning C4996: '_beep': This function or variable has been superceded by newer library or operating system functionality. Consider using Beep instead. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdlib.h(1260): note: see declaration of '_beep'
+c:\users\s170895\documents\programs\hello world\hello world\main.cpp(610): warning C4996: '_beep': This function or variable has been superceded by newer library or operating system functionality. Consider using Beep instead. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdlib.h(1260): note: see declaration of '_beep'
+c:\users\s170895\documents\programs\hello world\hello world\main.cpp(611): warning C4996: '_beep': This function or variable has been superceded by newer library or operating system functionality. Consider using Beep instead. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdlib.h(1260): note: see declaration of '_beep'
+c:\users\s170895\documents\programs\hello world\hello world\main.cpp(612): warning C4996: '_beep': This function or variable has been superceded by newer library or operating system functionality. Consider using Beep instead. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdlib.h(1260): note: see declaration of '_beep'
+c:\users\s170895\documents\programs\hello world\hello world\main.cpp(613): warning C4996: '_beep': This function or variable has been superceded by newer library or operating system functionality. Consider using Beep instead. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdlib.h(1260): note: see declaration of '_beep'
+c:\users\s170895\documents\programs\hello world\hello world\main.cpp(614): warning C4996: '_beep': This function or variable has been superceded by newer library or operating system functionality. Consider using Beep instead. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdlib.h(1260): note: see declaration of '_beep'
+c:\users\s170895\documents\programs\hello world\hello world\main.cpp(615): warning C4996: '_beep': This function or variable has been superceded by newer library or operating system functionality. Consider using Beep instead. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdlib.h(1260): note: see declaration of '_beep'
+c:\users\s170895\documents\programs\hello world\hello world\main.cpp(617): warning C4996: '_beep': This function or variable has been superceded by newer library or operating system functionality. Consider using Beep instead. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdlib.h(1260): note: see declaration of '_beep'
+c:\users\s170895\documents\programs\hello world\hello world\main.cpp(618): warning C4996: '_beep': This function or variable has been superceded by newer library or operating system functionality. Consider using Beep instead. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdlib.h(1260): note: see declaration of '_beep'
+c:\users\s170895\documents\programs\hello world\hello world\main.cpp(619): warning C4996: '_beep': This function or variable has been superceded by newer library or operating system functionality. Consider using Beep instead. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdlib.h(1260): note: see declaration of '_beep'
+c:\users\s170895\documents\programs\hello world\hello world\main.cpp(620): warning C4996: '_beep': This function or variable has been superceded by newer library or operating system functionality. Consider using Beep instead. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdlib.h(1260): note: see declaration of '_beep'
+c:\users\s170895\documents\programs\hello world\hello world\main.cpp(621): warning C4996: '_beep': This function or variable has been superceded by newer library or operating system functionality. Consider using Beep instead. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdlib.h(1260): note: see declaration of '_beep'
+c:\users\s170895\documents\programs\hello world\hello world\main.cpp(622): warning C4996: '_beep': This function or variable has been superceded by newer library or operating system functionality. Consider using Beep instead. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdlib.h(1260): note: see declaration of '_beep'
+c:\users\s170895\documents\programs\hello world\hello world\main.cpp(623): warning C4996: '_beep': This function or variable has been superceded by newer library or operating system functionality. Consider using Beep instead. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdlib.h(1260): note: see declaration of '_beep'
+c:\users\s170895\documents\programs\hello world\hello world\main.cpp(624): warning C4996: '_beep': This function or variable has been superceded by newer library or operating system functionality. Consider using Beep instead. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdlib.h(1260): note: see declaration of '_beep'
+c:\users\s170895\documents\programs\hello world\hello world\main.cpp(625): warning C4996: '_beep': This function or variable has been superceded by newer library or operating system functionality. Consider using Beep instead. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdlib.h(1260): note: see declaration of '_beep'
+c:\users\s170895\documents\programs\hello world\hello world\main.cpp(626): warning C4996: '_beep': This function or variable has been superceded by newer library or operating system functionality. Consider using Beep instead. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdlib.h(1260): note: see declaration of '_beep'
+c:\users\s170895\documents\programs\hello world\hello world\main.cpp(627): warning C4996: '_beep': This function or variable has been superceded by newer library or operating system functionality. Consider using Beep instead. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdlib.h(1260): note: see declaration of '_beep'
+c:\users\s170895\documents\programs\hello world\hello world\main.cpp(628): warning C4996: '_beep': This function or variable has been superceded by newer library or operating system functionality. Consider using Beep instead. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdlib.h(1260): note: see declaration of '_beep'
+c:\users\s170895\documents\programs\hello world\hello world\main.cpp(629): warning C4996: '_beep': This function or variable has been superceded by newer library or operating system functionality. Consider using Beep instead. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdlib.h(1260): note: see declaration of '_beep'
+c:\users\s170895\documents\programs\hello world\hello world\main.cpp(630): warning C4996: '_beep': This function or variable has been superceded by newer library or operating system functionality. Consider using Beep instead. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdlib.h(1260): note: see declaration of '_beep'
+c:\users\s170895\documents\programs\hello world\hello world\main.cpp(631): warning C4996: '_beep': This function or variable has been superceded by newer library or operating system functionality. Consider using Beep instead. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdlib.h(1260): note: see declaration of '_beep'
+c:\users\s170895\documents\programs\hello world\hello world\main.cpp(632): warning C4996: '_beep': This function or variable has been superceded by newer library or operating system functionality. Consider using Beep instead. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdlib.h(1260): note: see declaration of '_beep'
+c:\users\s170895\documents\programs\hello world\hello world\main.cpp(633): warning C4996: '_beep': This function or variable has been superceded by newer library or operating system functionality. Consider using Beep instead. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdlib.h(1260): note: see declaration of '_beep'
+c:\users\s170895\documents\programs\hello world\hello world\main.cpp(634): warning C4996: '_beep': This function or variable has been superceded by newer library or operating system functionality. Consider using Beep instead. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdlib.h(1260): note: see declaration of '_beep'
+c:\users\s170895\documents\programs\hello world\hello world\main.cpp(635): warning C4996: '_beep': This function or variable has been superceded by newer library or operating system functionality. Consider using Beep instead. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdlib.h(1260): note: see declaration of '_beep'
+c:\users\s170895\documents\programs\hello world\hello world\main.cpp(636): warning C4996: '_beep': This function or variable has been superceded by newer library or operating system functionality. Consider using Beep instead. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdlib.h(1260): note: see declaration of '_beep'
+c:\users\s170895\documents\programs\hello world\hello world\main.cpp(637): warning C4996: '_beep': This function or variable has been superceded by newer library or operating system functionality. Consider using Beep instead. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdlib.h(1260): note: see declaration of '_beep'
+c:\users\s170895\documents\programs\hello world\hello world\main.cpp(638): warning C4996: '_beep': This function or variable has been superceded by newer library or operating system functionality. Consider using Beep instead. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdlib.h(1260): note: see declaration of '_beep'
+c:\users\s170895\documents\programs\hello world\hello world\main.cpp(639): warning C4996: '_beep': This function or variable has been superceded by newer library or operating system functionality. Consider using Beep instead. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdlib.h(1260): note: see declaration of '_beep'
+c:\users\s170895\documents\programs\hello world\hello world\main.cpp(640): warning C4996: '_beep': This function or variable has been superceded by newer library or operating system functionality. Consider using Beep instead. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdlib.h(1260): note: see declaration of '_beep'
+c:\users\s170895\documents\programs\hello world\hello world\main.cpp(641): warning C4996: '_beep': This function or variable has been superceded by newer library or operating system functionality. Consider using Beep instead. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdlib.h(1260): note: see declaration of '_beep'
+c:\users\s170895\documents\programs\hello world\hello world\main.cpp(642): warning C4996: '_beep': This function or variable has been superceded by newer library or operating system functionality. Consider using Beep instead. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdlib.h(1260): note: see declaration of '_beep'
+c:\users\s170895\documents\programs\hello world\hello world\main.cpp(643): warning C4996: '_beep': This function or variable has been superceded by newer library or operating system functionality. Consider using Beep instead. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdlib.h(1260): note: see declaration of '_beep'
+c:\users\s170895\documents\programs\hello world\hello world\main.cpp(644): warning C4996: '_beep': This function or variable has been superceded by newer library or operating system functionality. Consider using Beep instead. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdlib.h(1260): note: see declaration of '_beep'
+c:\users\s170895\documents\programs\hello world\hello world\main.cpp(645): warning C4996: '_beep': This function or variable has been superceded by newer library or operating system functionality. Consider using Beep instead. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdlib.h(1260): note: see declaration of '_beep'
+c:\users\s170895\documents\programs\hello world\hello world\main.cpp(646): warning C4996: '_beep': This function or variable has been superceded by newer library or operating system functionality. Consider using Beep instead. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdlib.h(1260): note: see declaration of '_beep'
+c:\users\s170895\documents\programs\hello world\hello world\main.cpp(647): warning C4996: '_beep': This function or variable has been superceded by newer library or operating system functionality. Consider using Beep instead. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdlib.h(1260): note: see declaration of '_beep'
+c:\users\s170895\documents\programs\hello world\hello world\main.cpp(648): warning C4996: '_beep': This function or variable has been superceded by newer library or operating system functionality. Consider using Beep instead. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdlib.h(1260): note: see declaration of '_beep'
+c:\users\s170895\documents\programs\hello world\hello world\main.cpp(649): warning C4996: '_beep': This function or variable has been superceded by newer library or operating system functionality. Consider using Beep instead. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdlib.h(1260): note: see declaration of '_beep'
+c:\users\s170895\documents\programs\hello world\hello world\main.cpp(650): warning C4996: '_beep': This function or variable has been superceded by newer library or operating system functionality. Consider using Beep instead. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdlib.h(1260): note: see declaration of '_beep'
+c:\users\s170895\documents\programs\hello world\hello world\main.cpp(702): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+c:\users\s170895\documents\programs\hello world\hello world\main.cpp(300): warning C4715: 'TicTacToeGameWinCheck': not all control paths return a value
+  Hello world.vcxproj -> C:\Users\s170895\Documents\Programs\Hello world\Debug\Hello world.exe
