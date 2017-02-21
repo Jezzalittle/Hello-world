@@ -2,7 +2,6 @@
 
 #include <String>
 #include <iostream>
-
 #include "NameGenerator.h"
 
 
@@ -12,15 +11,24 @@ class Player;
 class Enemy
 {
 public:
-	string name = GenerateEnemyName();
 
+	Enemy();
+	Enemy(int level);
+	~Enemy();
+
+	string name = GenerateEnemyName();
 	int health;
-	
+	int level;
+	int defence;
+	int damage;
+
+	void levelUp(int level);
+
 	void PrintInfo();
 
 	void Attack(int damage, Player player);
 
-	int TakeDamage(int damage);
+	void TakeDamage(int damage);
 
 
 };

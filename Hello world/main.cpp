@@ -8,6 +8,7 @@
 #include "Player.h"
 #include "Enemy.h"
 #include "BubbleSort.h"
+#include "DynamicArray.h"
 
 
 
@@ -650,22 +651,11 @@ void marioBeep()
 	_beep(932, 100); _sleep(125);
 	_beep(1046, 675);
 }
-/*
-##########################
-##ask ian about pointers##
-##########################
-*/
-
-
-
-
-
 
 
 
 void battleArena()
 {
-	
 	Player p1;
 	
 	bool endGame = false;
@@ -679,36 +669,53 @@ void battleArena()
 	cout << "\nHow Many Enemies\n";
 	char temp;
 	cin >> temp;
-	Enemy* enemies = NULL;
-	int amountOfEnemys = (int)temp;
-	enemies = new Enemy[amountOfEnemys];
-
+	int amountOfEnemys = rand() % 5 + 1;
 
 	int* arr = NULL;
 	arr = new int[amountOfEnemys];
 
+	Enemy** enemyPointers = new Enemy*[amountOfEnemys];
+
 	for (int i = 0; i < amountOfEnemys; i++)
 	{
-		arr[i] = enemies[i].health;
-	}
-
-	BubbleSort(arr, amountOfEnemys);
-	
-
-
-	while (endGame == false)
-	{
-		p1.PrintInfo();
-
+		enemyPointers[i] = new Enemy;
 		
 	}
 
 
+
+	while (endGame == false)
+	{
+		BubbleSort(enemyPointers, amountOfEnemys);
+
+		p1.PrintInfo();
+		for (int i = 0; i < amountOfEnemys; i++)
+		{
+			enemyPointers[i]->PrintInfo();
+		}
+
+		string whoToAttack;
+
+		cout << "Who Do You Want To Attack \n\n";
+		
+		cin >> whoToAttack;
+
+		for (int i = 0; i < amountOfEnemys; i++)
+		{
+			if (enemyPointers[i]->name == whoToAttack)
+			{
+
+			}
+		}
 	
-	
+
+
+
+
+	}
+
 
 }
-
 
 
 void main()
@@ -718,7 +725,7 @@ void main()
 
 
 	
-	cout << "1: Hello World" << endl << "2: Swap Numbers" << endl << "3: Black Jack" << endl << "4: Graph Calculator" << endl << "5: TicTacToe" << endl << "6: Eulas Problem" << endl << "7: Mario In Beeps\n8: Random Maze\n9: Exit\n" ;
+	cout << "1: Hello World" << endl << "2: Swap Numbers" << endl << "3: Black Jack" << endl << "4: Graph Calculator" << endl << "5: TicTacToe" << endl << "6: Eulas Problem" << endl << "7: Mario In Beeps\n8: Battle Area\n9: Exit\n" ;
 
 		int choice = 0;
 

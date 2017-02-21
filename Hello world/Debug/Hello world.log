@@ -1,10 +1,6 @@
 ﻿  main.cpp
-c:\users\s170895\documents\programs\hello world\hello world\main.cpp(121): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
-c:\users\s170895\documents\programs\hello world\hello world\main.cpp(140): warning C4101: 'chanceToHitAgian': unreferenced local variable
-c:\users\s170895\documents\programs\hello world\hello world\main.cpp(516): warning C4996: '_beep': This function or variable has been superceded by newer library or operating system functionality. Consider using Beep instead. See online help for details.
-  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdlib.h(1260): note: see declaration of '_beep'
-c:\users\s170895\documents\programs\hello world\hello world\main.cpp(517): warning C4996: '_beep': This function or variable has been superceded by newer library or operating system functionality. Consider using Beep instead. See online help for details.
-  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdlib.h(1260): note: see declaration of '_beep'
+c:\users\s170895\documents\programs\hello world\hello world\main.cpp(123): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+c:\users\s170895\documents\programs\hello world\hello world\main.cpp(142): warning C4101: 'chanceToHitAgian': unreferenced local variable
 c:\users\s170895\documents\programs\hello world\hello world\main.cpp(518): warning C4996: '_beep': This function or variable has been superceded by newer library or operating system functionality. Consider using Beep instead. See online help for details.
   c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdlib.h(1260): note: see declaration of '_beep'
 c:\users\s170895\documents\programs\hello world\hello world\main.cpp(519): warning C4996: '_beep': This function or variable has been superceded by newer library or operating system functionality. Consider using Beep instead. See online help for details.
@@ -201,9 +197,9 @@ c:\users\s170895\documents\programs\hello world\hello world\main.cpp(614): warni
   c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdlib.h(1260): note: see declaration of '_beep'
 c:\users\s170895\documents\programs\hello world\hello world\main.cpp(615): warning C4996: '_beep': This function or variable has been superceded by newer library or operating system functionality. Consider using Beep instead. See online help for details.
   c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdlib.h(1260): note: see declaration of '_beep'
-c:\users\s170895\documents\programs\hello world\hello world\main.cpp(617): warning C4996: '_beep': This function or variable has been superceded by newer library or operating system functionality. Consider using Beep instead. See online help for details.
+c:\users\s170895\documents\programs\hello world\hello world\main.cpp(616): warning C4996: '_beep': This function or variable has been superceded by newer library or operating system functionality. Consider using Beep instead. See online help for details.
   c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdlib.h(1260): note: see declaration of '_beep'
-c:\users\s170895\documents\programs\hello world\hello world\main.cpp(618): warning C4996: '_beep': This function or variable has been superceded by newer library or operating system functionality. Consider using Beep instead. See online help for details.
+c:\users\s170895\documents\programs\hello world\hello world\main.cpp(617): warning C4996: '_beep': This function or variable has been superceded by newer library or operating system functionality. Consider using Beep instead. See online help for details.
   c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdlib.h(1260): note: see declaration of '_beep'
 c:\users\s170895\documents\programs\hello world\hello world\main.cpp(619): warning C4996: '_beep': This function or variable has been superceded by newer library or operating system functionality. Consider using Beep instead. See online help for details.
   c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdlib.h(1260): note: see declaration of '_beep'
@@ -269,6 +265,17 @@ c:\users\s170895\documents\programs\hello world\hello world\main.cpp(649): warni
   c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdlib.h(1260): note: see declaration of '_beep'
 c:\users\s170895\documents\programs\hello world\hello world\main.cpp(650): warning C4996: '_beep': This function or variable has been superceded by newer library or operating system functionality. Consider using Beep instead. See online help for details.
   c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdlib.h(1260): note: see declaration of '_beep'
-c:\users\s170895\documents\programs\hello world\hello world\main.cpp(702): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
-c:\users\s170895\documents\programs\hello world\hello world\main.cpp(300): warning C4715: 'TicTacToeGameWinCheck': not all control paths return a value
+c:\users\s170895\documents\programs\hello world\hello world\main.cpp(651): warning C4996: '_beep': This function or variable has been superceded by newer library or operating system functionality. Consider using Beep instead. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdlib.h(1260): note: see declaration of '_beep'
+c:\users\s170895\documents\programs\hello world\hello world\main.cpp(652): warning C4996: '_beep': This function or variable has been superceded by newer library or operating system functionality. Consider using Beep instead. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdlib.h(1260): note: see declaration of '_beep'
+c:\users\s170895\documents\programs\hello world\hello world\main.cpp(712): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  Enemy.cpp
+  Generating Code...
+c:\users\s170895\documents\programs\hello world\hello world\main.cpp(302): warning C4715: 'TicTacToeGameWinCheck': not all control paths return a value
+  Compiling...
+  Player.cpp
+  BubbleSort.cpp
+c:\users\s170895\documents\programs\hello world\hello world\bubblesort.cpp(8): warning C4101: 'indextemp': unreferenced local variable
+  Generating Code...
   Hello world.vcxproj -> C:\Users\s170895\Documents\Programs\Hello world\Debug\Hello world.exe

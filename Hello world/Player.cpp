@@ -6,12 +6,21 @@
 
 int Player::TakeDamage(int damage)
 {
-	health = health - damage;
+	health = health - (damage - defence);
 	return health;
 }
 
-void Player::Attack(int damage, Enemy& enemy)
+Player::Player()
 {
-	int enemyHp = 0;
-	enemyHp = enemy.TakeDamage(damage);
+	health = 50;
+	kills = 0;
+	level = 0;
+	damage = 10;
+	defence = 2;
+}
+
+
+void Player::Attack(Enemy& enemy)
+{
+	enemy.TakeDamage(damage);
 }

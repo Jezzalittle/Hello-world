@@ -13,21 +13,23 @@ class Player
 {
 public:
 
+	Player();
+	~Player();
+
 	string name;
-
-	int health = 100;
-
+	int health;
 	int kills;
+	int level;
+	int damage;
+	int defence;
 
-	V2 pos;
-
-	V2 velocity;
 	
+
 	void PrintInfo()
 	{
 		cout << name << "\nHealth: " << health << "\nKills: " << kills << endl << endl;
 	}
 	int TakeDamage(int damage);
 
-	void Attack(int damage, Enemy& enemy);
+	void Attack(Enemy& enemy);
 };

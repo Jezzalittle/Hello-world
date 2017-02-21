@@ -2,6 +2,10 @@
 
 #include <chrono>
 #include <conio.h>
+#include <iostream>
+
+
+
 //gets milliseconds between this call to the function and the previous call to the function.
 //make sure you only call this once every "loop"
 extern std::chrono::steady_clock::time_point begin;
@@ -15,3 +19,4 @@ struct V2
 
 void PlayNote(char a_letter);
 char getKeyPress();
+
