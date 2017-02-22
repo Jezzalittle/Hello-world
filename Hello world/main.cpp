@@ -653,8 +653,6 @@ void marioBeep()
 	_beep(1046, 675);
 }
 
-
-
 void battleArena()
 {
 	Player p1;
