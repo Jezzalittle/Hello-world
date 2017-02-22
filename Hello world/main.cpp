@@ -299,6 +299,7 @@ bool TicTacToeGameWinCheck(string map[][3], int amoutOfTurns)
 		cout << "\n\n Its A Draw!";
 		return true;
 	}
+	return false;
 }
 
 void printTicTacToe(string maps[][3])
@@ -665,10 +666,9 @@ void battleArena()
 	cout << "Player's 1 name \n";
 
 	getline(cin, p1.name);
+	
+	cout << endl;
 
-	cout << "\nHow Many Enemies\n";
-	char temp;
-	cin >> temp;
 	int amountOfEnemys = rand() % 5 + 1;
 
 	int* arr = NULL;
@@ -678,7 +678,7 @@ void battleArena()
 
 	for (int i = 0; i < amountOfEnemys; i++)
 	{
-		enemyPointers[i] = new Enemy;
+		enemyPointers[i] = new Enemy(p1.level);
 		
 	}
 
@@ -688,6 +688,7 @@ void battleArena()
 	{
 		BubbleSort(enemyPointers, amountOfEnemys);
 
+
 		p1.PrintInfo();
 		for (int i = 0; i < amountOfEnemys; i++)
 		{
@@ -696,18 +697,30 @@ void battleArena()
 
 		string whoToAttack;
 
-		cout << "Who Do You Want To Attack \n\n";
+		cout << "Who Do You Want To Attack \n";
 		
 		cin >> whoToAttack;
+
+		cout << endl;
 
 		for (int i = 0; i < amountOfEnemys; i++)
 		{
 			if (enemyPointers[i]->name == whoToAttack)
 			{
-
+				p1.Attack(enemyPointers[i]);
+				p1.PrintAttack(enemyPointers[i]);
 			}
 		}
+
 	
+
+		for (int i = 0; i < amountOfEnemys; i++)
+		{
+			enemyPointers[i]->Attack(&p1);
+			enemyPointers[i]->PrintAttack(&p1);
+		}
+		
+		cout << endl;
 
 
 

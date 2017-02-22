@@ -4,10 +4,15 @@
 #include "Enemy.h"
 
 
-int Player::TakeDamage(int damage)
+void Player::TakeDamage(int Edamage)
 {
-	health = health - (damage - defence);
-	return health;
+	health = health - (Edamage - defence);
+
+}
+
+void Player::PrintAttack(Enemy* enemy)
+{
+	cout << name << " attacked " << (*enemy).name << " for " << (damage - (*enemy).defence) << endl;
 }
 
 Player::Player()
@@ -19,8 +24,12 @@ Player::Player()
 	defence = 2;
 }
 
-
-void Player::Attack(Enemy& enemy)
+void Player::PrintInfo()
 {
-	enemy.TakeDamage(damage);
+	cout << name << "\n\nHealth: " << health << "\nLevel : " << level << endl << "damage: " << damage << endl << "armor: " << defence << endl << endl << endl;
+}
+
+void Player::Attack(Enemy* enemy)
+{
+	(*enemy).TakeDamage(damage);
 }

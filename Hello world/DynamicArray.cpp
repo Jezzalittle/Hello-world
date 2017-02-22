@@ -15,6 +15,7 @@ DynamicArray::DynamicArray(int arraySize)
 }
 DynamicArray::DynamicArray(int* arrPointer, int value)
 {
+
 	addValue(arrPointer, value);
 
 

@@ -3,43 +3,63 @@
 
 #include "Player.h"
 
-	void Enemy::Attack(int damage, Player player)
+	void Enemy::Attack(Player* player)
 	{
-		player.TakeDamage(damage);
+		(*player).TakeDamage(damage);
 	}
 	
-	void Enemy::TakeDamage(int damgae)
+
+
+	void Enemy::TakeDamage(int Pdamgae)
 	{
-		health = health - (damage - defence);
+		health = health - (Pdamgae - defence);
 	}
+
+	void Enemy::PrintAttack(Player* player)
+	{
+		cout << name << " attacked " << (*player).name << " for " << (damage - (*player).defence) << endl;
+	}
+
 	
 	Enemy::Enemy(int pLevel)
 	{
 		int tempRand = rand() % 3 + 1;
+	
 
 		level = pLevel - tempRand;
 
-		name = GenerateEnemyName();
-		health = 
+		if (level < 0)
+		{
+			level = 1;
+		}
 
-		defence;
-		damage;
+		name = GenerateEnemyName();
+		health = 50;
+
+		defence = 1;
+		damage = 3;
+
+		for (int i = 0; i < level; i++)
+		{
+			levelUp();
+		}
+
 	}
 
-	void Enemy::levelUp(int level)
+	void Enemy::levelUp()
 	{
 		health += rand() % 2 + 1;
 		defence += rand() % 2 + 1;
-		damage +=
+		damage += rand() % 2 + 1;
+
 	}
 
-	Enemy::Enemy()
-	{
-	}
+
 
 	void Enemy::PrintInfo()
 	{
-		cout << name << "\nHealth: " << health << endl << endl;
+		cout << name << "\n\nHealth: " << health << "\nLevel : " << level << endl << "damage: " << damage  << "\narmor: " << defence << endl << endl << endl;
+
 	}
 
 

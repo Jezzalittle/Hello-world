@@ -14,7 +14,7 @@ class Player
 public:
 
 	Player();
-	~Player();
+
 
 	string name;
 	int health;
@@ -25,11 +25,11 @@ public:
 
 	
 
-	void PrintInfo()
-	{
-		cout << name << "\nHealth: " << health << "\nKills: " << kills << endl << endl;
-	}
-	int TakeDamage(int damage);
+	void PrintInfo();
 
-	void Attack(Enemy& enemy);
+	void TakeDamage(int damage);
+
+	void Player::PrintAttack(Enemy* player);
+
+	void Attack(Enemy* enemy);
 };
