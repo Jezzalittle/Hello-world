@@ -4,11 +4,14 @@
 #include <string>
 #include <iostream>
 #include <ctime>
+#include <fstream>
 #include "Utility.h"
 #include "Player.h"
 #include "Enemy.h"
 #include "BubbleSort.h"
 #include "DynamicArray.h"
+#include <sstream>
+#include <crtdbg.h>
 
 
 
@@ -42,6 +45,63 @@ void HelloWorld()
 		system("pause");
 	}
 	
+}
+
+void SaveGame(Player* a_player)
+{
+	fstream myfile;
+	
+	myfile.open("PlayerInfo.txt");
+
+		myfile << a_player->name << endl;
+		myfile << a_player->health << endl;
+		myfile << a_player->level << endl;
+		myfile << a_player->damage << endl;
+		myfile << a_player->defence << endl;
+		myfile << a_player->xp << endl;
+		myfile << a_player->maxXp << endl;
+	
+
+
+}
+
+void LoadGame(Player* a_player)
+{
+	fstream myfile;
+	myfile.open("PlayerInfo.txt");
+
+	string x;
+	int i;
+
+	getline(myfile, a_player->name);
+	getline(myfile, x);
+
+	//health
+	stringstream(x) >> i;
+	a_player->health = i;
+	
+	getline(myfile, x);
+	stringstream(x) >> i;
+	a_player->level = i;
+
+	getline(myfile, x);
+	stringstream(x) >> i;
+	a_player->damage = i;
+
+
+	getline(myfile, x);
+	stringstream(x) >> i;
+	a_player->defence = i;
+
+	getline(myfile, x);
+	stringstream(x) >> i;
+	a_player->xp = i;
+
+	getline(myfile, x);
+	stringstream(x) >> i;
+	a_player->maxXp = i;
+
+
 }
 
 void graphCalaculator()
@@ -656,28 +716,58 @@ void marioBeep()
 void battleArena()
 {
 	Player p1;
-	
+	Player* p1Pointer = &p1;
 	bool endGame = false;
+	string loadedGame;
+	fstream mf("PlayerInfo.txt");
+	bool newPlayer = false;
 
-	//const int amountOfEnemys;
+	if (mf.good() && !( mf.peek() == ifstream::traits_type::eof())  )
+	{
+		while (true)
+		{
+			cout << "Load Game? (Y/N)\n";
 
-	cout << "Player's 1 name \n";
+			cin >> loadedGame;
 
-	getline(cin, p1.name);
-	
-	cout << endl;
+			if (loadedGame == "y" || loadedGame == "Y")
+			{
+				LoadGame(p1Pointer);
+				break;
+			}
+
+			if (loadedGame == "n" || loadedGame == "N")
+			{
+				newPlayer = true;
+				break;
+			}
+		}
+	}
+	else
+	{
+		newPlayer = true;
+	}
+
+	if(newPlayer == true)
+	{
+		cout << "Player's 1 name \n";
+
+		getline(cin, p1.name);
+
+		cout << endl;
+	}
 
 	int amountOfEnemys = rand() % 5 + 1;
-
-	int* arr = NULL;
-	arr = new int[amountOfEnemys];
 
 	Enemy** enemyPointers = new Enemy*[amountOfEnemys];
 
 	for (int i = 0; i < amountOfEnemys; i++)
 	{
 		enemyPointers[i] = new Enemy(p1.level);
-		
+		if (enemyPointers[i]->name == "")
+		{
+			enemyPointers[i]->name = GenerateEnemyName();
+		}
 	}
 
 
@@ -685,6 +775,16 @@ void battleArena()
 	while (endGame == false)
 	{
 		BubbleSort(enemyPointers, amountOfEnemys);
+
+		if (p1.health <= 0)
+		{
+			cout << "\n\nYou Died \n";
+			endGame = true;
+			return;
+		}
+
+
+		
 
 
 		p1.PrintInfo();
@@ -694,12 +794,27 @@ void battleArena()
 		}
 
 		string whoToAttack;
+		bool validTarget = false;
+		while (validTarget == false)
+		{
+			cout << "Who Do You Want To Attack \n";
 
-		cout << "Who Do You Want To Attack \n";
-		
-		cin >> whoToAttack;
+			cin >> whoToAttack;
 
-		cout << endl;
+			cout << endl;
+
+			for (int i = 0; i < amountOfEnemys; i++)
+			{
+				if (whoToAttack == enemyPointers[i]->name)
+				{
+					validTarget = true;
+				}
+			}
+
+
+
+		}
+		system("cls");
 
 		for (int i = 0; i < amountOfEnemys; i++)
 		{
@@ -710,6 +825,134 @@ void battleArena()
 			}
 		}
 
+		for (int i = 0; i < amountOfEnemys; i++)
+
+		{
+			if (enemyPointers[i]->health <= 0)
+			{
+				cout << "\n\n" << enemyPointers[i]->name << " is dead \n\n";
+
+				if (amountOfEnemys <= 0)
+				{
+					string input;
+
+					cout << "\n\nYou Are The Champon Of Battle Arena, Want To Keep Fighting? (Y/N)";
+
+					getline(cin, input);
+
+					if (input == "y" || input == "Y")
+					{
+						int amountOfEnemys = rand() % 5 + 1;
+
+						Enemy** enemyPointers = new Enemy*[amountOfEnemys];
+
+						for (int i = 0; i < amountOfEnemys; i++)
+						{
+							enemyPointers[i] = new Enemy(p1.level);
+						}
+
+					}
+
+					if (input == "n" || input == "N")
+					{
+						return;
+					}
+
+
+				}
+
+				p1.gainXp(enemyPointers[i]);
+					
+					//create a new array
+				 	Enemy** temp = new Enemy*[amountOfEnemys - 1];
+
+					//changes old array
+					if (i != amountOfEnemys - 1)
+					{
+						delete enemyPointers[i];
+						enemyPointers[i] = enemyPointers[amountOfEnemys - 1];					
+					}
+
+					////copy values into temp array
+					for (int j = 0; j < amountOfEnemys - 1; j++)
+					{
+						temp[j] = enemyPointers[j];
+					}
+
+				    //delete memory in old array
+					delete[] enemyPointers;
+
+					//copy the address of temp into enemyPointers
+					enemyPointers = temp;
+
+
+					amountOfEnemys--;
+
+					if (amountOfEnemys <= 0)
+					{
+						
+						string save;
+
+						while (true)
+						{
+							cout << "\n\nSave Game? (Y/N)\n";
+
+							cin >> save;
+
+
+							if (save == "y" || save == "Y")
+							{
+								SaveGame(p1Pointer);
+								break;
+								
+							}
+							else if (save == "n" || save == "N")
+							{
+								break;
+							}
+
+						}
+
+
+						string keepPlaying;
+						bool moveOn = false;
+						while (moveOn == false)
+						{
+							cout << "\n\nYou Are The Champon Of Battle Arena, Want To Keep Fighting? (Y/N)\n";
+
+							cin >> keepPlaying;
+
+							if (keepPlaying == "y" || keepPlaying == "Y")
+							{
+								amountOfEnemys = rand() % 5 + 1;
+
+								enemyPointers = new Enemy*[amountOfEnemys];
+
+
+								for (int i = 0; i < amountOfEnemys; i++)
+								{
+									enemyPointers[i] = new Enemy(p1.level);
+								}
+			
+								moveOn = true;
+								
+							}
+
+							if (keepPlaying == "n" || keepPlaying == "N")
+							{
+								endGame = true;
+								moveOn = true;
+								return;
+							}
+						
+						}
+					}
+
+					BubbleSort(enemyPointers, amountOfEnemys);
+				
+			}
+
+		}
 	
 
 		for (int i = 0; i < amountOfEnemys; i++)
@@ -726,11 +969,18 @@ void battleArena()
 	}
 
 
+
+
+
+
+
 }
 
 
 void main()
 {
+	_CrtSetDbgFlag(_CRTDBG_ALLOC_MEM_DF | _CRTDBG_LEAK_CHECK_DF);
+
 	//seed random based on program start time
 	srand( time(NULL) );
 

@@ -15,11 +15,13 @@ std::string GenerateEnemyName()
 
 	if (myfile.is_open())
 	{
-		for(int i = 0; i<50; ++i)
+		int i = 0;
+		while(myfile.eof() != true)
 		{
 			getline(myfile, NameArray[i]);
+			i++;
 		}
-
+		
 		myfile.close();
 	}
 

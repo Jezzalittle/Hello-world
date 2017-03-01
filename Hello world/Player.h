@@ -22,14 +22,20 @@ public:
 	int level;
 	int damage;
 	int defence;
-
+	int maxHealth;
+	int xp;
+	int maxXp;
 	
 
 	void PrintInfo();
+
+	void levelUp();
 
 	void TakeDamage(int damage);
 
 	void Player::PrintAttack(Enemy* player);
 
 	void Attack(Enemy* enemy);
+
+	void gainXp(Enemy* a_enemy);
 };

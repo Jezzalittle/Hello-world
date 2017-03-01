@@ -10,23 +10,37 @@
 	
 
 
-	void Enemy::TakeDamage(int Pdamgae)
+	void Enemy::TakeDamage(int Pdamage)
 	{
-		health = health - (Pdamgae - defence);
+		int finalDamage = Pdamage - defence;
+
+		if (finalDamage < 0)
+		{
+			finalDamage = 0;
+		}
+		health = health - finalDamage;
 	}
 
 	void Enemy::PrintAttack(Player* player)
 	{
+		int finalInt = damage - (*player).defence;
+
+		if (finalInt < 0)
+		{
+			finalInt = 0;
+		}
+
 		cout << name << " attacked " << (*player).name << " for " << (damage - (*player).defence) << endl;
 	}
 
 	
 	Enemy::Enemy(int pLevel)
 	{
-		int tempRand = rand() % 3 + 1;
-	
 
-		level = pLevel - tempRand;
+
+		int finalRand = (rand() % 5) - (rand() % 5);
+
+		level = pLevel + finalRand;
 
 		if (level < 0)
 		{
@@ -36,8 +50,8 @@
 		name = GenerateEnemyName();
 		health = 50;
 
-		defence = 1;
-		damage = 3;
+		defence = 0;
+		damage = 1;
 
 		for (int i = 0; i < level; i++)
 		{
@@ -58,7 +72,7 @@
 
 	void Enemy::PrintInfo()
 	{
-		cout << name << "\n\nHealth: " << health << "\nLevel : " << level << endl << "damage: " << damage  << "\narmor: " << defence << endl << endl << endl;
+		cout << name << "\nHealth: " << health << "\nLevel : " << level << endl << "damage: " << damage  << "\narmor: " << defence << endl << endl << endl;
 
 	}
 
